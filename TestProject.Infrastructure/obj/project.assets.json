@@ -3189,11 +3189,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Repos\\NewCandidateTest\\TestProject\\TestProject.Infrastructure\\TestProject.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Repos\\CandidateTestGit\\TestProject.Infrastructure\\TestProject.Infrastructure.csproj",
       "projectName": "TestProject.Infrastructure",
-      "projectPath": "C:\\Repos\\NewCandidateTest\\TestProject\\TestProject.Infrastructure\\TestProject.Infrastructure.csproj",
+      "projectPath": "C:\\Repos\\CandidateTestGit\\TestProject.Infrastructure\\TestProject.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Petar Tomašević\\.nuget\\packages\\",
-      "outputPath": "C:\\Repos\\NewCandidateTest\\TestProject\\TestProject.Infrastructure\\obj\\",
+      "outputPath": "C:\\Repos\\CandidateTestGit\\TestProject.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3213,8 +3213,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Repos\\NewCandidateTest\\TestProject\\TestProject.Contracts\\TestProject.Contracts.csproj": {
-              "projectPath": "C:\\Repos\\NewCandidateTest\\TestProject\\TestProject.Contracts\\TestProject.Contracts.csproj"
+            "C:\\Repos\\CandidateTestGit\\TestProject.Contracts\\TestProject.Contracts.csproj": {
+              "projectPath": "C:\\Repos\\CandidateTestGit\\TestProject.Contracts\\TestProject.Contracts.csproj"
             }
           }
         }

@@ -280,11 +280,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Repos\\NewCandidateTest\\TestProject\\TestProject.Contracts\\TestProject.Contracts.csproj",
+      "projectUniqueName": "C:\\Repos\\CandidateTestGit\\TestProject.Contracts\\TestProject.Contracts.csproj",
       "projectName": "TestProject.Contracts",
-      "projectPath": "C:\\Repos\\NewCandidateTest\\TestProject\\TestProject.Contracts\\TestProject.Contracts.csproj",
+      "projectPath": "C:\\Repos\\CandidateTestGit\\TestProject.Contracts\\TestProject.Contracts.csproj",
       "packagesPath": "C:\\Users\\Petar Tomašević\\.nuget\\packages\\",
-      "outputPath": "C:\\Repos\\NewCandidateTest\\TestProject\\TestProject.Contracts\\obj\\",
+      "outputPath": "C:\\Repos\\CandidateTestGit\\TestProject.Contracts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

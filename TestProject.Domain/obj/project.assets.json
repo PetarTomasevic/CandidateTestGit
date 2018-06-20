@@ -298,11 +298,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Repos\\NewCandidateTest\\TestProject\\TestProject.Domain\\TestProject.Domain.csproj",
+      "projectUniqueName": "C:\\Repos\\CandidateTestGit\\TestProject.Domain\\TestProject.Domain.csproj",
       "projectName": "TestProject.Domain",
-      "projectPath": "C:\\Repos\\NewCandidateTest\\TestProject\\TestProject.Domain\\TestProject.Domain.csproj",
+      "projectPath": "C:\\Repos\\CandidateTestGit\\TestProject.Domain\\TestProject.Domain.csproj",
       "packagesPath": "C:\\Users\\Petar Tomašević\\.nuget\\packages\\",
-      "outputPath": "C:\\Repos\\NewCandidateTest\\TestProject\\TestProject.Domain\\obj\\",
+      "outputPath": "C:\\Repos\\CandidateTestGit\\TestProject.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -322,8 +322,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Repos\\NewCandidateTest\\TestProject\\TestProject.Contracts\\TestProject.Contracts.csproj": {
-              "projectPath": "C:\\Repos\\NewCandidateTest\\TestProject\\TestProject.Contracts\\TestProject.Contracts.csproj"
+            "C:\\Repos\\CandidateTestGit\\TestProject.Contracts\\TestProject.Contracts.csproj": {
+              "projectPath": "C:\\Repos\\CandidateTestGit\\TestProject.Contracts\\TestProject.Contracts.csproj"
             }
           }
         }
