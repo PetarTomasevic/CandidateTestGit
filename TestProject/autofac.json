@@ -1,0 +1,25 @@
+﻿{
+  "components": [
+    {
+      "type": "TestProject.Domain.CatalogService, TestProject.Domain",
+      "services": [
+        {
+          "type": "TestProject.Contracts.Services.ICatalogService, TestProject.Contracts"
+        }
+      ],
+      "autoActivate": true,
+      "instanceScope": "per-lifetime-scope"
+    },
+    {
+      "type": "TestProject.Infrastructure.Repository.CatalogRepository, TestProject.Infrastructure",
+      "services": [
+        {
+          "type": "TestProject.Contracts.Repository.ICatalogRepository, TestProject.Contracts"
+        }
+      ],
+      "autoActivate": true,
+      "instanceScope": "per-lifetime-scope"
+    }
+
+  ]
+}

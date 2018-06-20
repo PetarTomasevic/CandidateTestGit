@@ -1,0 +1,154 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+
+                <h2>Test project</h2>
+
+                <p>The points listed below illustrate the features to be implemented in the project. <b>For the success of the test, develop at least step one.</b></p>
+
+                <p><strong>Project is organized as follows:</strong></p>
+                <ul>
+                    <li>
+                        We are using Autofac for dependency injections
+                    </li>
+                    <li>
+                        <strong>TestProject.Client</strong>
+                        <br />Here you will find views and controllers of main application
+                    </li>
+                    <li>
+                        <strong>TestProject.Contracts</strong>
+                        <br />Here you will find Interfaces and Entities
+                    </li>
+                    <li>
+                        <strong>TestProject.Domain</strong>
+                        <br />Here you will find bussines logic and service layer code
+                    </li>
+                    <li>
+                        <strong>TestProject.Infrastructure</strong>
+                        <br />All code which communicates  with database goes here.
+                        <br />We are using linq and EF code first
+                    </li>
+                </ul>
+
+                <p><strong>Some project and development guidelines.:</strong></p>
+                <ul>
+                    <li>Short explanation how to start work on this project and organize code:
+                    <ul>
+                        <li>
+                            In first step you have task to add method to show catalog details data.
+                            <br>We do call to database and get some catalog items details
+                           <p>Correct way to finish that will be:
+                               <ul>
+                                   <li>
+                                       1. Open Catalog repository in infrastructure project
+                                      <br /> 2. Add new method to get catalog details data
+                                   </li>
+                                   <li>
+                                       3. Open Interface for catalog repository in Contract project
+                                       <br />4. Add interface for previously added method in repository
+                                   </li>
+                                   <li>
+                                       5. Open Catalog service in Domain project and add new service method to consume
+                                       previously created repository method over that method interface
+                                       <br />6. Add interface for that catalog service method to ICatalogService inside Contracts project
+                                   </li>
+                                   <li>
+                                       7. Open Catalog Controller in Client project
+                                      <br /> 8. Setup new method to consume method from catalog service and return Catalog details data
+                                   </li>
+                                   <li>
+                                       8. Build. Run project
+                                       <br />9. test if details view in client project correctly returns catalog details.
+                                   </li>
+                               </ul>
+                            </p>
+                        </li>
+                    </ul>
+                    </li>
+                    
+                </ul>
+            </hgroup>
+
+        </div>
+    </section>
+
+    <ol class="round">
+
+        <h2>Tasks</h2>
+        <h4><strong>Step one</strong></h4>
+        <li>
+            <h5><b>Complete the Catalog view</b> </h5>
+            <br />
+            <p>by introducing missing features add code  to show catalog details and add code for deleting catalog items.</p>
+        </li>
+        <li>
+            <h5><b>Add Products handling</b></h5>
+            <br />
+            <p>We must enable consumer to be able to see Products in the same way as we are showing Catalog</p>
+            <p>
+                Use Catalog as example to create:
+                <ul>
+                    <li>-product views</li>
+                    <li>-product controllers</li>
+                    <li>-show products list</li>
+                    <li>-show products details</li>
+                    <li>-enable adding new product</li>
+                    <li>-enable editing product details</li>
+                    <li>-enable deleting product</li>
+                </ul>
+            </p>
+            <p>Additional (but not required) create separate repository and service  classes for products and catalogs.</p>
+            <p>
+                <font color="red">
+                    Notice: If you're applying for junior position this is the end of required tasks you must do.
+                    <br />Any addition is benefit, but nor required.
+                </font>
+            </p>
+        </li>
+
+
+        <h4><b>Step two</b></h4>
+        <li>
+            <h5>In the catalog list view, introduce a function to link the products to the catalog. The new function can open a new view or can expose the data in a popup page, for example with jQuery.</h5>
+            <ul>
+                <li>
+                    Enable Adding Products to Catalogs /Deleting products from catalogs
+                </li>
+                <li>
+                    - One product must have  option to be added to multiple catalogs
+                </li>
+                <li>
+                    - User must have option to Add / Remove product from catalog
+                </li>
+                <li>
+                    - One product can be added only once in one catalog. If product already exists in catalog return warning to user when adding product to catalog.
+                </li>
+                <li>
+                    -use code first migrations to update database.
+                </li>
+                <li>
+                   Additional (not required): 
+                    <br />Enable Option to add some pricing strategies for product
+                    <br /> Add pricing strategy for products to Catalog
+                </li>
+            </ul>
+
+        </li>
+        <h4>Step tree</h4>
+        <li>
+            <h5>Add logging errors to service layer (use ILoggerFactory)</h5>
+            <br />
+            <p></p>
+        </li>
+        <li>
+            <h5>Add unit Test project and cover service methods for Catalog with some tests.</h5>
+            <br />
+            <p></p>
+        </li>
+
+    </ol>
